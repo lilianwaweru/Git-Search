@@ -2,7 +2,7 @@
 This is a github app that helps you to search for github users repositories.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
 ## Author
-[Lilian Muthoni waweru](https://github.com/lilianwaweru/Git-Search)
+[Lilian Muthoni waweru](https://github.com/lilianwaweru)
 
 ### Project Setup instructions
 Use the following commands to use this project.
