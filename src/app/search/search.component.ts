@@ -21,11 +21,11 @@ export class SearchComponent implements OnInit {
 
    }
 
-//    findUsers(){
-//   this.getService.update(this.username);
-//   this.getService.fetchUserInformation();
-//   this.getService.fetchRepoInformation();
-//    }
+   findUsers(){
+  this.getService.update(this.username);
+  this.getService.fetchUserInformation();
+  this.getService.fetchRepoInformation();
+   }
    
 
 //   ngOnInit() {
