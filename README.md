@@ -47,3 +47,10 @@ You can contact me via slack(lilian waweru) or email me at lilowesh.lw@gmail.com
 
 ## Link To The site
 Click on this link for the live demo:https://lilianwaweru.github.io/Quotes/
+
+## Technologies Used
+1.Angular
+
+2.Bootstrap
+
+3.Typescript
