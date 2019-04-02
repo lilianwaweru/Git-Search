@@ -52,33 +52,33 @@ reposa:any=[];
        return promise
 
 
-//     }//End of fetch
+    }//End of fetch
 
-//     fetchRepoInformation(){
-//       interface ApiInterface{
-//       name:string;
-//       html_url:string;
-//       description:string;
-//       }
-//       let promise = new Promise((resolve,reject)=>{
-//         this.http.get<ApiInterface[]>(environment.apiUrl+this.username +"/repos"+environment.token).toPromise().then(response=>{
-//           response.forEach( repository=> {
-//             this.repos.push(new Repository(repository.name,repository.html_url,repository.description))
-//           });
+    fetchRepoInformation(){
+      interface ApiInterface{
+      name:string;
+      html_url:string;
+      description:string;
+      }
+      let promise = new Promise((resolve,reject)=>{
+        this.http.get<ApiInterface[]>(environment.apiUrl+this.username +"/repos"+environment.token).toPromise().then(response=>{
+          response.forEach( repository=> {
+            this.repos.push(new Repository(repository.name,repository.html_url,repository.description))
+          });
     
-//           resolve()
+          resolve()
           
-//          },error=>{
+         },error=>{
   
-//            reject(error)
-//          })
-//       })
-//        return promise
+           reject(error)
+         })
+      })
+       return promise
 
-//     }
-// update(username:string){
-//   this.username = username;
-// }
+    }
+update(username:string){
+  this.username = username;
+}
     
-//   }
+  }
 
