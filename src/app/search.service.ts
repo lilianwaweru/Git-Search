@@ -24,32 +24,32 @@ reposa:any=[];
     this.username= "lilianwaweru";
     }
 
-//     fetchUserInformation(){
-//       interface ApiInterface{
-//         login:string;
-//         avatar_url:string;
-//         public_repos:string;
-//         followers:0;
-//         following:0;
-//         created_at:string;
-//       }
-//       let promise = new Promise((resolve,reject)=>{
-//         this.http.get<ApiInterface>(environment.apiUrl+this.username +environment.token).toPromise().then(response=>{
-//           this.user.login= response.login
-//           this.user.avatar_url = response.avatar_url
-//           this.user.public_repos = response.public_repos
-//           this.user.followers=response.followers
-//           this.user.following=response.following
-//           this.user.created_at=response.created_at
+    fetchUserInformation(){
+      interface ApiInterface{
+        login:string;
+        avatar_url:string;
+        public_repos:string;
+        followers:0;
+        following:0;
+        created_at:string;
+      }
+      let promise = new Promise((resolve,reject)=>{
+        this.http.get<ApiInterface>(environment.apiUrl+this.username +environment.token).toPromise().then(response=>{
+          this.user.login= response.login
+          this.user.avatar_url = response.avatar_url
+          this.user.public_repos = response.public_repos
+          this.user.followers=response.followers
+          this.user.following=response.following
+          this.user.created_at=response.created_at
           
-//           resolve()
-//          },error=>{
-//            this.user.avatar_url = "Error Fetching Data"
+          resolve()
+         },error=>{
+           this.user.avatar_url = "Error Fetching Data"
   
-//            reject(error)
-//          })
-//       })
-//        return promise
+           reject(error)
+         })
+      })
+       return promise
 
 
 //     }//End of fetch
