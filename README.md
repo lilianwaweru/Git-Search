@@ -44,3 +44,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Contact 
 You can contact me via slack(lilian waweru) or email me at lilowesh.lw@gmail.com.
+
+## Link To The site
+Click on this link for the live demo:https://lilianwaweru.github.io/Quotes/
