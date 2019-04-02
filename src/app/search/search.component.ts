@@ -28,14 +28,14 @@ export class SearchComponent implements OnInit {
    }
    
 
-//   ngOnInit() {
-//     this.getService.fetchUserInformation();    
-//     this.user=this.getService.user;
-//     this.getService.fetchRepoInformation();
-//     this.repositories=this.getService.repos;
-//   }
+  ngOnInit() {
+    this.getService.fetchUserInformation();    
+    this.user=this.getService.user;
+    this.getService.fetchRepoInformation();
+    this.repositories=this.getService.repos;
+  }
 
-// }
+}
 
   
  
