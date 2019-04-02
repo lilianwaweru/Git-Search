@@ -46,7 +46,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 You can contact me via slack(lilian waweru) or email me at lilowesh.lw@gmail.com.
 
 ## Link To The site
-Click on this link for the live demo:
+Click on this link for the live demo:https://lilianwaweru.github.io/Git-Search/
 
 ## Technologies Used
 1.Angular
