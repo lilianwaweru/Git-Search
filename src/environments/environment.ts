@@ -4,8 +4,8 @@
 
 export const environment = {
   production: false,
-  apiurl:"http://api.github.com/users/",
-  access_token:" 36fdbadcdfa24c0ffd0b1c7c7f4d40bd15336f91"
+  apiUrl:"http://api.github.com/users/",
+  token:"?access_token=97a6dd7cdfe8358c6c2024b0b76c31f4e3271804",
 };
 
 /*
@@ -16,3 +16,6 @@ export const environment = {
  * on performance if an error is thrown.
  */
 // import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+
+
+// 97a6dd7cdfe8358c6c2024b0b76c31f4e3271804
