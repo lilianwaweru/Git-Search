@@ -6,10 +6,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ### Project Setup instructions
 Use the following commands to use this project.
-- git clone :https://github.com/lilianwaweru/Quotes.git
-- cd Quotes
-- atom .  //For those using atom text editor.
-- code .  //For those using Visual Studio editor.
+- Node installation
+Install Angularjs
 
 ## Development server
 
