@@ -41,3 +41,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 | when you search your username     | On click it displays you profile for github |
 | When you click the search button   | It shows your repositories                  |
 | When you click on the repo link | It will take you to the repository page              |
+
+## Contact 
+You can contact me via slack(lilian waweru) or email me at lilowesh.lw@gmail.com.
