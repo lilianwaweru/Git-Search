@@ -2,8 +2,3 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
-body{
-    background-image: url("https://pub-static.haozhaopian.net/static/web/site/features/backgrounds/images/Artistic_01_A-small-mapb43ebf8d9250183c42ee169a3c7bd147.jpg");
-    background-size: cover;
-    background-position: fixed;
-}

@@ -1,11 +1,11 @@
-
+<div class="container">
 <body>
-  <form (ngSubmit)='mainSearch()' autocomplete="off">
+  <form autocomplete="off">
     <div class="form-group">
       <input  type="text" class="form-control" placeholder="search your username" [(ngModel)]='username'  name='username'>
     </div>
     <button class="btn btn-info" type="submit"
-    (click)="findUsers">Search</button>
+    (click)="findUsers()">Search</button>
   </form>
 <br>
   <hr>
@@ -36,4 +36,5 @@
 </div>
 </div>
 
-</body> -->
+</body>
+</div>
