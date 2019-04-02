@@ -46,7 +46,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 You can contact me via slack(lilian waweru) or email me at lilowesh.lw@gmail.com.
 
 ## Link To The site
-Click on this link for the live demo:https://lilianwaweru.github.io/Quotes/
+Click on this link for the live demo:
 
 ## Technologies Used
 1.Angular
@@ -54,3 +54,7 @@ Click on this link for the live demo:https://lilianwaweru.github.io/Quotes/
 2.Bootstrap
 
 3.Typescript
+
+## License
+[MIT](./LICENSE)
+Copyright (c) 2019 Lilian Waweru
